@@ -1,5 +1,3 @@
-console.log("Client side js File");
-
 fetch("https://puzzle.mead.io/puzzle").then((responce) => {
   responce.json().then((data) => {
     console.log(data);
